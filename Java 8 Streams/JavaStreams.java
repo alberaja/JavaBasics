@@ -151,7 +151,7 @@ public class JavaStreams {
 			System.out.println("12:"+ key + "  " + map.get(key));
 		}
 			
-		// 13. Reduction - sum
+		// 13. Reduction = sum elements
 			// La operación de reducción consiste en sumar todos los elementos del stream y, en este caso, se inicia con un valor inicial de 0.0.
 		double total = Stream.of(7.3, 1.5, 4.8)
 				// El primer argumento (0.0) es el valor inicial, y la lambda (Double a, Double b) -> a + b especifica cómo combinar dos elementos del stream. En este caso, se están sumando los elementos.
