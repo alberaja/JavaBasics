@@ -8,6 +8,38 @@ import java.io.IOException;
 
 public class JavaStreams {
 	public static void main(String[] args) throws IOException {
+//		salida:
+//			123456789
+//			2: 6
+//			2: 7
+//			2: 8
+//			2: 9
+//
+//			3: 10
+//
+//			4:Alberto
+//			5:Sarah
+//			5:Sarika
+//			5:Shivika
+//			6:44.0
+//			7:al
+//			7:ankit
+//			7:amanda
+//			8:Jackson Browne
+//			8:Mumford and Sons
+//			8:Rolling Stones
+//			9:Arijit Singh
+//			10:5 rows.
+//			11:B  17  2.8
+//			11:D  23  2.7
+//			11:F  18  3.4
+//			12:B  17
+//			12:D  23
+//			12:F  18
+//			13:Total = 13.600000000000001
+//			14:IntSummaryStatistics{count=7, sum=203, min=2, average=29,000000, max=88}
+		
+		
 		// 1. Integer Stream
 		IntStream
 			.range(1, 10)
