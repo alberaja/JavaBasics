@@ -26,9 +26,9 @@ public class main {
 		int[] ACod = { 1, 2, 5, 9, 9 };
 		int Xcod = 5;
 		System.out.println("-------Enunciado codility-------");
-		System.out.println("Enunciado codility: " + PosibleEnunciado.enunciadoCodility(ACod, Xcod));
+		System.out.println("Enunciado codility: " + Enunciado.enunciadoCodility(ACod, Xcod));
 		
-		System.out.println("solutionEnviada 04/04/2024: " + PosibleEnunciado.solutionEnviada(ACod, Xcod));
+		System.out.println("solutionEnviada 04/04/2024: " + Enunciado.solutionEnviada(ACod, Xcod));
 		
 //		----> Enunciado codility para Tests 04/04/2024
 		System.out.println("Enunciado codility para Tests 04/04/2024");
